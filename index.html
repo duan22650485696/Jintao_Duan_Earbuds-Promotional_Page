@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Magnectic Audio M100</title>
+    <meta charset="utf-8">
+    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="css/main.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <!-- <model-viewer> HTML element -->
+    <model-viewer id="model" src="/model/earbunds-ar-model.gltf" ar ar-modes="scene-viewer webxr quick-look" camera-controls poster="poster.webp" shadow-intensity="0.91" autoplay exposure="0.63" shadow-softness="0.79" environment-image="assets/whipple_creek_regional_park_04_1k.hdr">
+
+
+    <!--hotspts 1-->
+    <button class="Hotspot" slot="hotspot-1" data-position="50.114881038306805m 80.41863141465969m 20.72411936367459m" data-normal="0m 3.422854333301474e-8m 0.9999999999999996m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation" id="hotspot-1">
+          <h2>Logo</h2>
+          <p>This is the new brand called Magnectic audio.</p>
+        </div>
+    </button>
+    
+    <button class="Hotspot" slot="hotspot-2" data-position="39.77344034970514m 35.166245058302174m 20.72411936367459m" data-normal="0.9907333466758325m -0.04850912905944068m 0.12686331298842657m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation" id="hotspot-2">
+          <h2>Iconic Design</h2>
+          <p>Very food wearing experience with soft texture, whatever how long music playing. It's completely different feeling</p>
+        </div>
+    </button>
+    
+    <button class="Hotspot" slot="hotspot-3" data-position="60.4492803380076666m 5.895113621640228m 20.72411936367459m" data-normal="-0.09319883119990514m 0.7267314834938743m -0.6805698559014823m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation" id="hotspot-3">
+          <h2>Ultra Fast Charging</h2>
+            <p>Charge your earbuds in 30 minutes or less with our hyper charging technology.</p>
+        </div>
+    </button>
+    
+    <button class="Hotspot" slot="hotspot-4" data-position="20.209706351369618m 20.79136002933947m 5.72411936367459m" data-normal="0.018820622483499312m -0.18212597696599156m -0.9830950679784314m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation" id="hotspot-4">        
+            <h2>Rubber Texture</h2>
+            <p>With High Quality Rubber Texture </p>
+        </div>
+    </button>
+      <button slot="ar-button" id="ar-button">
+          View in your space
+      </button>
+      <div id="ar-prompt">
+          <img src="/images/ar_hand_prompt.png">
+      </div>
+    </model-viewer>
+    <!-- Loads <model-viewer> for browsers: -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>  
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.2.0/model-viewer.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
