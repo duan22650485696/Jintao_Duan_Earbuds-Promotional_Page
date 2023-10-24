@@ -1,0 +1,25 @@
+<model-viewer src="earbunds-ar-model.gltf" ar ar-modes="scene-viewer webxr quick-look" camera-controls poster="poster.webp" shadow-intensity="0.91" autoplay exposure="0.63" shadow-softness="0.79" environment-image="whipple_creek_regional_park_04_1k.hdr">
+    <button class="Hotspot" slot="hotspot-1" data-surface="10 0 854 845 853 0.672 0.109 0.219" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">LOGO</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-surface="7 0 1164271 1164240 1164239 0.744 0.193 0.063" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">MIC</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-surface="7 0 893177 893146 893145 0.162 0.212 0.626" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Wearing Direction</div>
+    </button><button class="Hotspot" slot="hotspot-6" data-surface="7 0 930037 503396 794749 0.127 0.613 0.261" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Charging induction
+        </div>
+    </button><button class="Hotspot" slot="hotspot-7" data-surface="9 0 780 597 743 0.536 0.102 0.362" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Transparent Rubber Cap</div>
+    </button><button class="Hotspot" slot="hotspot-8" data-surface="0 0 22 0 21 0.009 0.625 0.366" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Headphone filter/nest</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
